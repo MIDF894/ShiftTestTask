@@ -1,0 +1,46 @@
+# Настройки VS Code и других IDE
+.vscode/
+.idea/
+
+# === Python & Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Environments & Dependencies ===
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# === Testing & Quality ===
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# === Environment Variables & Secrets ===
+.env
+.env.*
+!.env.example
+
+# === Docker & Local Database ===
+postgres_data/
+*.db
+*.sqlite3
+.docker/
+
+# === IDEs & Editors ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
